@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-class Square:
-   ''' class square with private arg
+"""private arg"""
 
-   Args:
-        size: private argument'''
-   def __init__(self, size):
-      self.__size = size
+
+class Square:
+    """class square with private arg"""
+    def __init__(self, size):
+        """__init__ initialize object"""
+        self.__size = size
