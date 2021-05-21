@@ -3,5 +3,5 @@
 
 
 class Rectangle:
-    # Empty Rectangle
+    """ Empty 'cause pass i for pass"""
     pass
