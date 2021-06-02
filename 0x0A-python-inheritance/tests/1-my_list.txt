@@ -1,0 +1,22 @@
+The "1-my_list" tests
+---------------------
+
+1.
+>>> MyList = __import__('1-my_list').MyList
+>>> list = Mylist()
+>>> list = MyList()
+>>> isinstance(list, MyList)
+True
+
+2.
+>>> print_sorted = __import__('1-my_list').MyList.print_sorted
+>>> type(print_sorted)
+<class 'function'>
+
+3.
+>>> print_sorted([3, 5, 8, 12, 1 ,0 , -100])
+[-100, 0, 1, 3, 5, 8, 12]
+
+4.
+>>> MyList
+<class '1-my_list.MyList'>
