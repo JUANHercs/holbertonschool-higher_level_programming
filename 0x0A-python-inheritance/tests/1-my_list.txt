@@ -3,7 +3,7 @@ The "1-my_list" tests
 
 1.
 >>> MyList = __import__('1-my_list').MyList
->>> list = Mylist()
+>>> list = MyList()
 >>> isinstance(list, MyList)
 True
 
