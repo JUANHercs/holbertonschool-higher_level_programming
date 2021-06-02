@@ -6,7 +6,7 @@ empty class
 '''
 
 
-class BaseGeometry():
+class BaseGeometry:
     '''
     empty class
     '''
