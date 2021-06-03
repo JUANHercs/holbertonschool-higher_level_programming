@@ -6,7 +6,7 @@ Text file write function
 
 def write_file(filename="", text=""):
     """
-    write in filename the text and 
+    write in filename the text and
     return number of characters written
     """
     with open(filename, 'w') as file_to_write:
