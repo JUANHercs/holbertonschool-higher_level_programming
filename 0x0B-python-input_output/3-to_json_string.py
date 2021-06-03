@@ -7,6 +7,8 @@ json text writting in javascript object notation
 
 
 import json
+
+
 def to_json_string(my_obj):
     """ Args:
         my_obj - recieve object from python
