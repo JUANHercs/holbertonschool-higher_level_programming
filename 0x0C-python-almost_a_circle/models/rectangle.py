@@ -9,10 +9,10 @@ class Rectangle(Base):
     """ this is a rectangle class"""
     def __init__(self, width, height, x=0, y=0, id=None):
         """ initialize a rctangle"""
-        self.width = width
-        self.height = height
-        self.x = 0
-        self.y = 0
+        self.__width = width
+        self.__height = height
+        self.__x = 0
+        self.__y = 0
         super().__init__(id)
 
     @property
